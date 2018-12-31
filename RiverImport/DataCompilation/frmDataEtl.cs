@@ -2916,8 +2916,8 @@ namespace RiverImport.DataCompilation
         //===============四个查清=================================
         private void btnFourCheck_Click(object sender, EventArgs e)
         {
-            if (dtpStart.Value < Convert.ToDateTime("2018-07-16 00:00:00"))
-                dtpStart.Text = "2018-07-16 00:00:00";
+            //if (dtpStart.Value < Convert.ToDateTime("2018-07-16 00:00:00"))
+            //    dtpStart.Text = "2018-07-16 00:00:00";
             pBarFourCheck.Value = 0;
             pBarFourCheck.Minimum = 0;
 
