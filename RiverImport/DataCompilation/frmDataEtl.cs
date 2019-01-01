@@ -111,6 +111,7 @@ namespace RiverImport.DataCompilation
 
         void worker_DoWorkPatrol(object sender, DoWorkEventArgs e)
         {
+            rtbPatrol.Clear();
             lblInfo.Text = "数据处理中(巡河数据:RTD_PATROL_INFO)...";
             //writeInfo(lblInfo.Text);
             this.BeginInvoke(wt, new Object[] { lblInfo.Text });
@@ -528,6 +529,7 @@ namespace RiverImport.DataCompilation
 
         void worker_DoWorkProblem(object sender, DoWorkEventArgs e)
         {
+            rtbProblem.Clear();
             lblInfo.Text = "数据处理中(问题数据:RTD_PROBLEM_SOURCE)...";
             //writeInfo(lblInfo.Text);
             this.BeginInvoke(wt, new Object[] { lblInfo.Text });
@@ -1228,6 +1230,7 @@ namespace RiverImport.DataCompilation
 
         void worker_DoWorkBase(object sender, DoWorkEventArgs e)
         {
+            rtbBase.Clear();
             lblInfo.Text = "数据处理中(基础数据表:RTD_BASE)...";
             //writeInfo(lblInfo.Text);
             this.BeginInvoke(wt, new Object[] { lblInfo.Text });
@@ -1803,6 +1806,7 @@ namespace RiverImport.DataCompilation
 
         void worker_DoWorkFootPatrol(object sender, DoWorkEventArgs e)
         {
+            rtbFootPatrol.Clear();
             lblInfo.Text = "数据处理中(徒步巡河:RTD_FOOT_PATROL)...";
             //writeInfo(lblInfo.Text);
             this.BeginInvoke(wt, new Object[] { lblInfo.Text });
@@ -2251,6 +2255,7 @@ namespace RiverImport.DataCompilation
 
         void worker_ProblemType(object sender, DoWorkEventArgs e)
         {
+            rtbProblemType.Clear();
             lblInfo.Text = "数据处理中(问题类型:RTD_PROBLEM_TYPE)...";
             //writeInfo(lblInfo.Text);
             this.BeginInvoke(wt, new Object[] { lblInfo.Text });
@@ -2930,6 +2935,7 @@ namespace RiverImport.DataCompilation
 
         void worker_FourCheck(object sender, DoWorkEventArgs e)
         {
+            rtbFourCheck.Clear();
             lblInfo.Text = "数据处理中(问题类型:RTD_FOUR_CHECK)...";
             //writeInfo(lblInfo.Text);
             this.BeginInvoke(wt, new Object[] { lblInfo.Text });
@@ -3299,6 +3305,7 @@ namespace RiverImport.DataCompilation
 
         void worker_ProblemAssign(object sender, DoWorkEventArgs e)
         {
+            rtbProblemAssign.Clear();
             lblInfo.Text = "数据处理中(问题交办、重大问题上报、整改:RTD_PROBLEM_ASSIGN)...";
             //writeInfo(lblInfo.Text);
             this.BeginInvoke(wt, new Object[] { lblInfo.Text });
@@ -3777,6 +3784,7 @@ namespace RiverImport.DataCompilation
 
         void worker_AppUse(object sender, DoWorkEventArgs e)
         {
+            rtbAppUse.Clear();
             lblInfo.Text = "数据处理中(APP使用:RTD_APP_USE)...";
             //writeInfo(lblInfo.Text);
             this.BeginInvoke(wt, new Object[] { lblInfo.Text });
@@ -4212,6 +4220,7 @@ namespace RiverImport.DataCompilation
 
         void worker_Score(object sender, DoWorkEventArgs e)
         {
+            rtbScore.Clear();
             lblInfo.Text = "数据处理中(河长积分:RTD_SCORE)...";
             //writeInfo(lblInfo.Text);
             this.BeginInvoke(wt, new Object[] { lblInfo.Text });
